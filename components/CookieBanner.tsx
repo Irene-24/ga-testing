@@ -13,7 +13,7 @@ const enum Status {
 
 declare global {
   interface Window {
-    gtag?: Gtag.Gtag;
+    gtag: Gtag.Gtag;
   }
 }
 

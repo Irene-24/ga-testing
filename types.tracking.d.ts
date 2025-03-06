@@ -1,7 +1,7 @@
 // Extend the global namespace to recognize GTM-related properties
 declare global {
   interface Window {
-    gtag?: Gtag.Gtag;
+    gtag: Gtag.Gtag;
   }
 }
 

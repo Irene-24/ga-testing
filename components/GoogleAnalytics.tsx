@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 declare global {
   interface Window {
-    gtag?: Gtag.Gtag;
+    gtag: Gtag.Gtag;
   }
 }
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GAID as string;
